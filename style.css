@@ -1,0 +1,58 @@
+body {
+    font-family: NeueMontreal, sans-serif;
+    background-image: url(../images/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.container-fluid {
+    padding: 0 15vw;
+    font-size: 1.2em;
+
+}
+
+.navbar-brand {
+    font-size: 1.6em;
+    color: #fff;
+}
+
+#navbarNav {
+    padding: 0 12vw;
+}
+
+.nav-link {
+    border-bottom: 1px solid;
+    margin: 0 0.5rem;
+    padding: 0;
+}
+
+.btn btn-outline-success {
+    color: #fff;
+}
+.hero-container{
+    display: flex;
+    flex-direction: row;
+    color: #ffffff;
+}
+.hero-container h1 h2 h3{
+    font-family: 'Poppins', sans-serif;
+}
+.cover-img {
+    padding: 8rem 15rem;
+    border-radius: 50%;
+}
+
+.cover-img img {
+    height: 25rem;
+    box-shadow: 12px 0 #797fcd, 24px 0 #374f85, 36px 0 #10106b;
+    margin: 0 auto;
+}
+image {
+    vertical-align: middle;
+}
+.intro{
+    margin: 10rem 0;
+    padding: 5rem;
+    
+}

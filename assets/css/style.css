@@ -10,6 +10,7 @@ body::before {
   content: "";
   position: fixed;
   background: #040404 url("../bg.jpg") top right no-repeat;
+
   background-size: cover;
   left: 0;
   right: 0;
@@ -42,6 +43,13 @@ h5,
 h6 {
   font-family: "Raleway", sans-serif;
 }
+.profile-image {
+  width: 180px; 
+  height: 180px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 20px; 
+}
 
 #header {
   transition: ease-in-out 0.3s;
@@ -64,6 +72,8 @@ h6 {
   line-height: 1;
   font-weight: 700;
   font-family: "Poppins", sans-serif;
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
 
 #header h1 a,
@@ -140,11 +150,19 @@ h6 {
   left: 0;
   top: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.642);
+  /* background-image: linear-gradient(to left, #434343 0%,  */
+background: linear-gradient(to right, #161616, #15181d);
+
 }
 
 #header.header-top .social-links,
 #header.header-top h2 {
+  display: none;
+}
+#header.header-top .profile-image {
+  display: none;
+}
+#header.header-top h3 {
   display: none;
 }
 
@@ -589,6 +607,10 @@ section .container {
   background-color: #1843d2;
 }
 
+.description {
+  max-width: 600px; 
+  text-align: left;
+}
 
 .resume .resume-title {
   font-size: 26px;
@@ -603,6 +625,7 @@ section .container {
   margin-top: -2px;
   border-left: 2px solid rgba(255, 255, 255, 0.2);
   position: relative;
+  text-align: left;
 }
 
 .resume .resume-item h4 {

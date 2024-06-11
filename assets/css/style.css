@@ -57,7 +57,7 @@ h6 {
   height: 100vh;
   display: flex;
   align-items: center;
-  z-index: 997;
+  z-index: 999999;
   overflow-y: auto;
 }
 
@@ -150,6 +150,7 @@ h6 {
   left: 0;
   top: 0;
   right: 0;
+  z-index: 999999;
   /* background-image: linear-gradient(to left, #434343 0%,  */
 background: linear-gradient(to right, #161616, #15181d);
 
@@ -181,9 +182,9 @@ background: linear-gradient(to right, #161616, #15181d);
 }
 
 @media (max-width: 768px) {
-  #header.header-top {
+  /* #header.header-top {
     height: 60px;
-  }
+  } */
 
   #header.header-top h1 {
     font-size: 26px;
@@ -309,6 +310,7 @@ background: linear-gradient(to right, #161616, #15181d);
   bottom: 45px;
   left: 15px;
   padding: 10px 0;
+  z-index: 999999;
   overflow-y: auto;
   transition: 0.3s;
   border: 2px solid rgba(255, 255, 255, 0.2);

@@ -19,6 +19,38 @@ body::before {
   z-index: -1;
 }
 
+.button {
+  background-color: #ffffff00;
+  color: #fff;
+  width: 14.5em;
+  height: 2.9em;
+  border: #3654ff 0.2em solid;
+  border-radius: 11px;
+  text-align: right;
+  transition: all 0.6s ease;
+}
+
+.button:hover {
+  background-color: #3654ff;
+  cursor: pointer;
+}
+
+.button svg {
+  width: 1.6em;
+  margin: -0.1em 0.9em 1em;
+  position: absolute;
+  display: flex;
+  transition: all 0.6s ease;
+}
+
+.button:hover svg {
+  transform: translateX(5px);
+}
+
+.text {
+  margin: 0 1.5em
+}
+
 @media (min-width: 1024px) {
   body::before {
     background-attachment: fixed;
@@ -166,7 +198,9 @@ background: linear-gradient(to right, #161616, #15181d);
 #header.header-top h3 {
   display: none;
 }
-
+#header.header-top .resume-btn {
+  display: none;
+}
 #header.header-top h1 {
   margin-right: auto;
   font-size: 36px;
@@ -1015,7 +1049,7 @@ section .container {
 }
 
 .contact .info-box .social-links a {
-  font-size: 18px;
+  font-size: 30px;
   display: inline-block;
   color: #fff;
   line-height: 1;

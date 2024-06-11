@@ -145,7 +145,7 @@ h6 {
 }
 
 #header.header-top {
-  height: 80px;
+  height: auto;
   position: fixed;
   left: 0;
   top: 0;

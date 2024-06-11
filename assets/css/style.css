@@ -289,7 +289,7 @@ background: linear-gradient(to right, #161616, #15181d);
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.9);
   transition: 0.3s;
   z-index: 999999;
   width: 100vw;
@@ -346,6 +346,7 @@ section.section-show {
   top: 100px;
   bottom: auto;
   opacity: 1;
+  z-index: 0;
   padding-bottom: 45px;
 }
 

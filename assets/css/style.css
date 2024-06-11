@@ -288,10 +288,11 @@ background: linear-gradient(to right, #161616, #15181d);
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(0, 0, 0, 0.8);
   transition: 0.3s;
   z-index: 999999;
-  margin-top: 0;
+  width: 100vw;
+  height: 100vh;
 }
 
 .navbar-mobile .mobile-nav-toggle {
@@ -336,7 +337,7 @@ section {
   bottom: 100%;
   opacity: 0;
   transition: ease-in-out 0.4s;
-  z-index: 2;
+  z-index: 0;
 }
 
 section.section-show {

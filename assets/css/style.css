@@ -284,14 +284,13 @@ background: linear-gradient(to right, #161616, #15181d);
 
 .navbar-mobile {
   position: fixed;
-  overflow: hidden;
   top: 0;
   right: 0;
   left: 0;
   bottom: 0;
   background: rgba(0, 0, 0, 0.9);
   transition: 0.3s;
-  z-index: 999;
+  z-index: 999999;
   margin-top: 0;
 }
 
